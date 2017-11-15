@@ -435,21 +435,40 @@ public final class R {
   }
   public static final class color {
     public static final int color1=0x7f020000;
-    public static final int color2=0x7f020001;
-    public static final int color3=0x7f020002;
-    public static final int color4=0x7f020003;
-    public static final int colorAccent=0x7f020004;
-    public static final int colorBright=0x7f020005;
-    public static final int colorPrimary=0x7f020006;
-    public static final int colorPrimaryDark=0x7f020007;
+    public static final int color1a=0x7f020001;
+    public static final int color2=0x7f020002;
+    public static final int color2a=0x7f020003;
+    public static final int color3=0x7f020004;
+    public static final int color3a=0x7f020005;
+    public static final int color4=0x7f020006;
+    public static final int color4a=0x7f020007;
+    public static final int colorAccent=0x7f020008;
+    public static final int colorBright=0x7f020009;
+    public static final int colorGlow=0x7f02000a;
+    public static final int colorPrimary=0x7f02000b;
+    public static final int colorPrimaryDark=0x7f02000c;
+    public static final int colorTransparent=0x7f02000d;
   }
   public static final class drawable {
-    public static final int btn1=0x7f030001;
-    public static final int btn2=0x7f030002;
-    public static final int btn3=0x7f030003;
-    public static final int btn4=0x7f030004;
-    public static final int ic_launcher_background=0x7f030005;
-    public static final int ic_launcher_foreground=0x7f030006;
+    public static final int blue_toggle=0x7f030001;
+    public static final int btn1=0x7f030002;
+    public static final int btn2=0x7f030003;
+    public static final int btn3=0x7f030004;
+    public static final int btn4=0x7f030005;
+    public static final int ex_blue_off=0x7f030006;
+    public static final int ex_blue_on=0x7f030007;
+    public static final int ex_green_off=0x7f030008;
+    public static final int ex_green_on=0x7f030009;
+    public static final int ex_red_off=0x7f03000a;
+    public static final int ex_red_on=0x7f03000b;
+    public static final int ex_yellow_off=0x7f03000c;
+    public static final int ex_yellow_on=0x7f03000d;
+    public static final int glow=0x7f03000e;
+    public static final int green_toggle=0x7f03000f;
+    public static final int ic_launcher_background=0x7f030010;
+    public static final int ic_launcher_foreground=0x7f030011;
+    public static final int red_toggle=0x7f030012;
+    public static final int yellow_toggle=0x7f030013;
   }
   public static final class id {
     public static final int all=0x7f040000;
@@ -468,6 +487,7 @@ public final class R {
   }
   public static final class layout {
     public static final int activity_main=0x7f050000;
+    public static final int test=0x7f050001;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f060000;
