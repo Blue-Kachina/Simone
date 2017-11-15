@@ -33,12 +33,26 @@ public class MainActivity extends Activity {
         btn3 = (ToggleButton)findViewById(R.id.btn3);
         btn4 = (ToggleButton)findViewById(R.id.btn4);
 
-        takeTurnComputer();
+        btn1.setText("");
+        btn1.setTextOn("");
+        btn1.setTextOff("");
+        btn2.setText("");
+        btn2.setTextOn("");
+        btn2.setTextOff("");
+        btn3.setText("");
+        btn3.setTextOn("");
+        btn3.setTextOff("");
+        btn4.setText("");
+        btn4.setTextOn("");
+        btn4.setTextOff("");
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(1);
+                waitASecond();
+                btn1.setSelected(false);
             }
         });
 
@@ -46,6 +60,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(2);
+                waitASecond();
+                btn2.setSelected(false);
             }
         });
 
@@ -53,6 +69,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(3);
+                waitASecond();
+                btn3.setSelected(false);
             }
         });
 
@@ -60,8 +78,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(4);
+                waitASecond();
+                btn4.setSelected(false);
             }
         });
+
+        //takeTurnComputer();
+        //illuminateAllButtonsInSequence();
+
 
     }
 
@@ -82,8 +106,8 @@ public class MainActivity extends Activity {
             Integer turnNumber = MainActivity.computerCall.size() + 1;
         }
         Integer newNumber = getRandomNumber();
-        Toast.makeText(getApplicationContext(), MainActivity.colourNames[newNumber], Toast.LENGTH_SHORT).show();
-        illuminateSingleButton(newNumber);
+        //Toast.makeText(getApplicationContext(), MainActivity.colourNames[newNumber], Toast.LENGTH_SHORT).show();
+        //illuminateSingleButton(newNumber);
         MainActivity.computerCall.add(newNumber);
     }
 
@@ -94,8 +118,9 @@ public class MainActivity extends Activity {
             if (MainActivity.computerCall.get(indexToCheck) == buttonNumber){
                 //Toast.makeText(getApplicationContext(), "Correct", Toast.LENGTH_SHORT).show();
                 if(MainActivity.computerCall.size() == MainActivity.userResponse.size()){
-                    takeTurnComputer();
                     initUserResponse();
+                    takeTurnComputer();
+                    illuminateAllButtonsInSequence();
                 }
 
             }else{
@@ -103,6 +128,7 @@ public class MainActivity extends Activity {
                 initComputerCall();
                 initUserResponse();
                 takeTurnComputer();
+                illuminateAllButtonsInSequence();
             }
 
         }else{
@@ -110,81 +136,56 @@ public class MainActivity extends Activity {
             initComputerCall();
             initUserResponse();
             takeTurnComputer();
+            illuminateAllButtonsInSequence();
         }
     }
 
     protected void waitASecond(){
         try{
-            TimeUnit.MILLISECONDS.sleep(1000);
+            TimeUnit.MILLISECONDS.sleep(300);
         }
         catch(InterruptedException ex) {
             System.err.println("An InterruptedException was caught: " + ex.getMessage());
         }
     }
 
+protected void illuminateAllButtonsInSequence(){
+        for (Integer i = 0 ; i < MainActivity.computerCall.size(); i++){
+            illuminateSingleButton(MainActivity.computerCall.get(i));
+        }
+}
+
 
     protected void illuminateSingleButton(Integer buttonNumber){
         switch (buttonNumber){
             case 1:
-                btn1.setSelected(true);
-                //btn1.setBackground(getDrawable(R.drawable.glow));
-                //btn1.setBackgroundColor(getResources().getColor(R.color.color1a));
-                //btn1.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.color1));
+                btn1.toggle();
                 waitASecond();
-                btn1.setSelected(false);
-                //btn1.setBackground(null);
-                //btn1.setBackgroundColor(getResources().getColor(R.color.color1));
-                //btn1.setBackgroundColor(getResources().getColor(R.color.color1));
-                //btn1.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorTransparent));
-
+                btn1.toggle();
                 break;
 
 
             case 2:
-                btn2.setSelected(true);
-                //btn2.setBackground(getDrawable(R.drawable.glow));
-                //btn2.setBackgroundColor(getResources().getColor(R.color.color2a));
-                //btn2.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorGlow));
+                btn2.toggle();
                 waitASecond();
-                btn2.setSelected(false);
-                //btn2.setBackground(null);
-                //btn2.setBackgroundColor(getResources().getColor(R.color.color2));
-                //btn2.setBackgroundColor(getResources().getColor(R.color.color2));
-                //btn2.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorTransparent));
+                btn2.toggle();
                 break;
 
 
             case 3:
-                btn3.setSelected(true);
-                //btn3.setBackground(getDrawable(R.drawable.glow));
-                //btn3.invalidate();
-                //btn3.setBackgroundColor(getResources().getColor(R.color.color3a));
-                //btn3.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorGlow));
+                btn3.toggle();
                 waitASecond();
-                btn3.setSelected(false);
-                //btn3.setBackground(null);
-                //btn3.setBackgroundColor(getResources().getColor(R.color.color3));
-                //btn3.setBackgroundColor(getResources().getColor(R.color.color3));
-                //btn3.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorTransparent));
+                btn3.toggle();
                 break;
 
 
             case 4:
-                btn4.setSelected(true);
-                //btn4.setBackground(getDrawable(R.drawable.glow));
-                //btn4.invalidate();
-                //btn4.setBackgroundColor(getResources().getColor(R.color.color4a));
-                //btn4.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorGlow));
+                btn4.toggle();
                 waitASecond();
-                btn4.setSelected(false);
-                //btn4.setBackground(null);
-                //btn4.setBackgroundColor(getResources().getColor(R.color.color4));
-                //btn4.setBackgroundColor(getResources().getColor(R.color.color4));
-                //btn4.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.colorTransparent));
+                btn4.toggle();
                 break;
 
         }
-        return;
     }
 
 }

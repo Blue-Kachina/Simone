@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 15 15:10:17 EST 2017
+#Wed Nov 15 16:14:59 EST 2017
 25.file=C\:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\mipmap-xxhdpi-v4\\ic_launcher_round.png
 25.base=C\:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
