@@ -4,6 +4,10 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_red_on.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellow_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\yellow_toggle.xml"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_toggle.xml.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\green_toggle.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_toggle.xml.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\blue_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_red_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_red_on.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -60,6 +68,10 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_off.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_green_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_green_on.png"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_on.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_on.png"
     },
@@ -76,6 +88,10 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\red_toggle.xml"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -90,6 +106,10 @@
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\blue_toggle.xml"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -132,8 +152,16 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\btn2.9.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_on.png"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn3.9.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\btn3.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\green_toggle.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn4.9.png.flat",
@@ -152,12 +180,20 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\btn2.9.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_red_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_red_off.png"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn1.9.png.flat",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\btn1.9.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_green_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_green_off.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -170,6 +206,14 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_yellow.9.png.flat",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\button_yellow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_off.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_on.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellow_toggle.xml.flat",
@@ -210,5 +254,9 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_off.png"
     }
 ]

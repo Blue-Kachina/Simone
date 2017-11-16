@@ -463,12 +463,11 @@ public final class R {
     public static final int ex_red_on=0x7f03000b;
     public static final int ex_yellow_off=0x7f03000c;
     public static final int ex_yellow_on=0x7f03000d;
-    public static final int glow=0x7f03000e;
-    public static final int green_toggle=0x7f03000f;
-    public static final int ic_launcher_background=0x7f030010;
-    public static final int ic_launcher_foreground=0x7f030011;
-    public static final int red_toggle=0x7f030012;
-    public static final int yellow_toggle=0x7f030013;
+    public static final int green_toggle=0x7f03000e;
+    public static final int ic_launcher_background=0x7f03000f;
+    public static final int ic_launcher_foreground=0x7f030010;
+    public static final int red_toggle=0x7f030011;
+    public static final int yellow_toggle=0x7f030012;
   }
   public static final class id {
     public static final int all=0x7f040000;
@@ -487,7 +486,6 @@ public final class R {
   }
   public static final class layout {
     public static final int activity_main=0x7f050000;
-    public static final int test=0x7f050001;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f060000;

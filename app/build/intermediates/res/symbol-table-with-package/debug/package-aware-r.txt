@@ -70,12 +70,11 @@ int drawable ex_red_off 0x7f03000a
 int drawable ex_red_on 0x7f03000b
 int drawable ex_yellow_off 0x7f03000c
 int drawable ex_yellow_on 0x7f03000d
-int drawable glow 0x7f03000e
-int drawable green_toggle 0x7f03000f
-int drawable ic_launcher_background 0x7f030010
-int drawable ic_launcher_foreground 0x7f030011
-int drawable red_toggle 0x7f030012
-int drawable yellow_toggle 0x7f030013
+int drawable green_toggle 0x7f03000e
+int drawable ic_launcher_background 0x7f03000f
+int drawable ic_launcher_foreground 0x7f030010
+int drawable red_toggle 0x7f030011
+int drawable yellow_toggle 0x7f030012
 int id all 0x7f040000
 int id basic 0x7f040001
 int id btn1 0x7f040002
@@ -90,7 +89,6 @@ int id spread 0x7f04000a
 int id spread_inside 0x7f04000b
 int id wrap 0x7f04000c
 int layout activity_main 0x7f050000
-int layout test 0x7f050001
 int mipmap ic_launcher 0x7f060000
 int mipmap ic_launcher_round 0x7f060001
 int string app_name 0x7f070000

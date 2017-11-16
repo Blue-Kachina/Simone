@@ -2,6 +2,7 @@ package ca.otitismedia.simone;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -51,7 +52,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(1);
-                waitASecond();
+                //waitASecond();
                 btn1.setSelected(false);
             }
         });
@@ -60,7 +61,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(2);
-                waitASecond();
+                //waitASecond();
                 btn2.setSelected(false);
             }
         });
@@ -69,7 +70,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(3);
-                waitASecond();
+                //waitASecond();
                 btn3.setSelected(false);
             }
         });
@@ -78,10 +79,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 logUserButtonPress(4);
-                waitASecond();
+                //waitASecond();
                 btn4.setSelected(false);
             }
         });
+
+
 
         //takeTurnComputer();
         //illuminateAllButtonsInSequence();
@@ -142,7 +145,7 @@ public class MainActivity extends Activity {
 
     protected void waitASecond(){
         try{
-            TimeUnit.MILLISECONDS.sleep(300);
+            Thread.sleep(300);
         }
         catch(InterruptedException ex) {
             System.err.println("An InterruptedException was caught: " + ex.getMessage());
@@ -156,36 +159,52 @@ protected void illuminateAllButtonsInSequence(){
 }
 
 
-    protected void illuminateSingleButton(Integer buttonNumber){
+    protected void illuminateSingleButton(final Integer buttonNumber){
+
+    /*
+        Handler mHandler = new Handler();
+
+
+
+        Runnable codeToRun = new Runnable() {
+            @Override
+            public void run() {
+                //LinearLayout llBackground = (LinearLayout) findViewById(R.id.background);
+                //llBackground.setBackgroundColor(0x847839);
+
+                ToggleButton dynamicButton = null;
+
+
+                // Pick Which Button We'll Be Working With
         switch (buttonNumber){
             case 1:
-                btn1.toggle();
-                waitASecond();
-                btn1.toggle();
+                dynamicButton = btn1;
                 break;
-
 
             case 2:
-                btn2.toggle();
-                waitASecond();
-                btn2.toggle();
+                dynamicButton = btn2;
                 break;
-
 
             case 3:
-                btn3.toggle();
-                waitASecond();
-                btn3.toggle();
+                dynamicButton = btn3;
                 break;
 
-
             case 4:
-                btn4.toggle();
-                waitASecond();
-                btn4.toggle();
+                dynamicButton = btn4;
                 break;
 
         }
+
+        //Toggle It
+                dynamicButton.toggle();
+                waitASecond();
+                dynamicButton.toggle();
+
+            }
+        };
+        mHandler.postDelayed(codeToRun, 3000);
+
+*/
     }
 
 }
