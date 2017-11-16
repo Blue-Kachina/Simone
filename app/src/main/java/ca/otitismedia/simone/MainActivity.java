@@ -1,6 +1,7 @@
 package ca.otitismedia.simone;
 
 import android.app.Activity;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -9,30 +10,43 @@ import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends Activity {
 
     public static ArrayList<Integer> computerCall = new ArrayList<>();
     public static ArrayList<Integer> userResponse = new ArrayList<>();
-
     private static String[] colourNames = {"","Green","Red","Yellow","Blue"};
-
+    MediaPlayer beatBox1 = null;
+    MediaPlayer beatBox2 = null;
+    MediaPlayer beatBox3 = null;
+    MediaPlayer beatBox4 = null;
     private ToggleButton btn1;
     private ToggleButton btn2;
     private ToggleButton btn3;
     private ToggleButton btn4;
 
+    private static void initComputerCall() {
+        computerCall.clear();
+    }
+
+    private static void initUserResponse() {
+        userResponse.clear();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn1 = (ToggleButton)findViewById(R.id.btn1);
-        btn2 = (ToggleButton)findViewById(R.id.btn2);
-        btn3 = (ToggleButton)findViewById(R.id.btn3);
-        btn4 = (ToggleButton)findViewById(R.id.btn4);
+        btn1 = findViewById(R.id.btn1);
+        btn2 = findViewById(R.id.btn2);
+        btn3 = findViewById(R.id.btn3);
+        btn4 = findViewById(R.id.btn4);
+
+        beatBox1 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound1);
+        beatBox2 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound2);
+        beatBox3 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound3);
+        beatBox4 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound4);
 
         btn1.setText("");
         btn1.setTextOn("");
@@ -54,6 +68,7 @@ public class MainActivity extends Activity {
                 logUserButtonPress(1);
                 //waitASecond();
                 btn1.setSelected(false);
+                beatBox1.start();
             }
         });
 
@@ -63,6 +78,7 @@ public class MainActivity extends Activity {
                 logUserButtonPress(2);
                 //waitASecond();
                 btn2.setSelected(false);
+                beatBox2.start();
             }
         });
 
@@ -72,6 +88,7 @@ public class MainActivity extends Activity {
                 logUserButtonPress(3);
                 //waitASecond();
                 btn3.setSelected(false);
+                beatBox3.start();
             }
         });
 
@@ -81,6 +98,7 @@ public class MainActivity extends Activity {
                 logUserButtonPress(4);
                 //waitASecond();
                 btn4.setSelected(false);
+                beatBox4.start();
             }
         });
 
@@ -90,13 +108,6 @@ public class MainActivity extends Activity {
         //illuminateAllButtonsInSequence();
 
 
-    }
-
-    private static void initComputerCall(){
-        computerCall.clear();
-    }
-    private static void initUserResponse(){
-        userResponse.clear();
     }
 
     protected int getRandomNumber(){
