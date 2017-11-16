@@ -15,6 +15,9 @@ public class MainActivity extends Activity {
 
     public static ArrayList<Integer> computerCall = new ArrayList<>();
     public static ArrayList<Integer> userResponse = new ArrayList<>();
+    public static Boolean callInProgress = false;
+
+
     private static String[] colourNames = {"","Green","Red","Yellow","Blue"};
     MediaPlayer beatBox1 = null;
     MediaPlayer beatBox2 = null;
@@ -65,7 +68,8 @@ public class MainActivity extends Activity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                logUserButtonPress(1);
+                if (!MainActivity.callInProgress)
+                    logUserButtonPress(1);
                 //waitASecond();
                 btn1.setSelected(false);
                 beatBox1.start();
@@ -75,7 +79,8 @@ public class MainActivity extends Activity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                logUserButtonPress(2);
+                if (!MainActivity.callInProgress)
+                    logUserButtonPress(2);
                 //waitASecond();
                 btn2.setSelected(false);
                 beatBox2.start();
@@ -85,7 +90,8 @@ public class MainActivity extends Activity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                logUserButtonPress(3);
+                if (!MainActivity.callInProgress)
+                    logUserButtonPress(3);
                 //waitASecond();
                 btn3.setSelected(false);
                 beatBox3.start();
@@ -95,17 +101,45 @@ public class MainActivity extends Activity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                logUserButtonPress(4);
+                if (!MainActivity.callInProgress)
+                    logUserButtonPress(4);
                 //waitASecond();
                 btn4.setSelected(false);
                 beatBox4.start();
             }
         });
 
+        beatBox1.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                btn1.setChecked(false);
+            }
+        });
+
+        beatBox2.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                btn2.setChecked(false);
+            }
+        });
+
+        beatBox3.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                btn3.setChecked(false);
+            }
+        });
+
+        beatBox4.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                btn4.setChecked(false);
+            }
+        });
 
 
-        //takeTurnComputer();
-        //illuminateAllButtonsInSequence();
+        takeTurnComputer();
+        illuminateAllButtonsInSequence();
 
 
     }
@@ -120,8 +154,6 @@ public class MainActivity extends Activity {
             Integer turnNumber = MainActivity.computerCall.size() + 1;
         }
         Integer newNumber = getRandomNumber();
-        //Toast.makeText(getApplicationContext(), MainActivity.colourNames[newNumber], Toast.LENGTH_SHORT).show();
-        //illuminateSingleButton(newNumber);
         MainActivity.computerCall.add(newNumber);
     }
 
@@ -130,7 +162,7 @@ public class MainActivity extends Activity {
         if (MainActivity.computerCall.size() >= MainActivity.userResponse.size()){
             Integer indexToCheck = MainActivity.userResponse.size() - 1;
             if (MainActivity.computerCall.get(indexToCheck) == buttonNumber){
-                //Toast.makeText(getApplicationContext(), "Correct", Toast.LENGTH_SHORT).show();
+                //User Pressed Correct Button
                 if(MainActivity.computerCall.size() == MainActivity.userResponse.size()){
                     initUserResponse();
                     takeTurnComputer();
@@ -138,7 +170,7 @@ public class MainActivity extends Activity {
                 }
 
             }else{
-                //Toast.makeText(getApplicationContext(), "Wrong", Toast.LENGTH_SHORT).show();
+                //User Pressed Incorrect Button
                 initComputerCall();
                 initUserResponse();
                 takeTurnComputer();
@@ -146,7 +178,7 @@ public class MainActivity extends Activity {
             }
 
         }else{
-            //Toast.makeText(getApplicationContext(), "Too many inputs", Toast.LENGTH_SHORT).show();
+            //User has pressed too many buttons
             initComputerCall();
             initUserResponse();
             takeTurnComputer();
@@ -164,13 +196,47 @@ public class MainActivity extends Activity {
     }
 
 protected void illuminateAllButtonsInSequence(){
+    MainActivity.callInProgress = true;
         for (Integer i = 0 ; i < MainActivity.computerCall.size(); i++){
             illuminateSingleButton(MainActivity.computerCall.get(i));
         }
+    MainActivity.callInProgress = false;
 }
 
 
     protected void illuminateSingleButton(final Integer buttonNumber){
+
+        ToggleButton dynamicButton = null;
+
+
+        // Pick Which Button We'll Be Working With
+        switch (buttonNumber) {
+            case 1:
+                dynamicButton = btn1;
+                break;
+
+            case 2:
+                dynamicButton = btn2;
+                break;
+
+            case 3:
+                dynamicButton = btn3;
+                break;
+
+            case 4:
+                dynamicButton = btn4;
+                break;
+
+        }
+
+        //Toggle It
+        try {
+            dynamicButton.performClick();
+        } catch (NullPointerException ex) {
+            System.err.println("A NullPointerException was caught: " + ex.getMessage());
+        }
+
+
 
     /*
         Handler mHandler = new Handler();
