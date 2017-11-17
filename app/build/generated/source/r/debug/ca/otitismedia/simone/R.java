@@ -482,7 +482,8 @@ public final class R {
     public static final int parent=0x7f040009;
     public static final int spread=0x7f04000a;
     public static final int spread_inside=0x7f04000b;
-    public static final int wrap=0x7f04000c;
+    public static final int txtScore=0x7f04000c;
+    public static final int wrap=0x7f04000d;
   }
   public static final class layout {
     public static final int activity_main=0x7f050000;

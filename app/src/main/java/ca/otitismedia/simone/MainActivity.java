@@ -6,16 +6,19 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class MainActivity extends Activity {
 
     public static ArrayList<Integer> computerCall = new ArrayList<>(); //This will be a compilation of all of the button presses that the computer has made
     public static ArrayList<Integer> userResponse = new ArrayList<>(); //This will be a compilation of all of the button presses that the user has made
     public static Boolean callInProgress = false; //This will indicate if the computer is currently showing the user all of its selections
+    public static Integer bestScoreThisSession = 0;
 
 
     private ToggleButton btn1; //A ToggleButton to represent one of the coloured buttons
@@ -28,6 +31,8 @@ public class MainActivity extends Activity {
     MediaPlayer beatBox2 = null; //This is storage for the sound that btn2 will play
     MediaPlayer beatBox3 = null; //This is storage for the sound that btn3 will play
     MediaPlayer beatBox4 = null; //This is storage for the sound that btn4 will play
+
+    TextView txtScore = null;
 
     @Override
     protected void onStart() {
@@ -109,6 +114,7 @@ public class MainActivity extends Activity {
         }
         Integer newNumber = getRandomNumber();
         MainActivity.computerCall.add(newNumber);
+        System.err.println("Computer Picked: " + colourNames[newNumber]);
     }
 
     //This will push a number to the end of ArrayList userResponse
@@ -119,17 +125,36 @@ public class MainActivity extends Activity {
 
             //User Pressed Correct Button
             if (MainActivity.computerCall.get(indexToCheck) == buttonNumber) {
+                System.err.println("Correct");
 
                 //User just completed the entire sequence correctly
                 if (MainActivity.computerCall.size() == MainActivity.userResponse.size()) {
+                    if (MainActivity.computerCall.size() > bestScoreThisSession){
+                        bestScoreThisSession = MainActivity.computerCall.size();
+                        txtScore.setText(bestScoreThisSession.toString());
+                    }
+
                     initUserResponse();
+
+                    System.err.println("Sequence Complete!");
+                    waitAMoment();
+
                     nextTurnForComputer();
                     illuminateAllButtonsInSequence();
                 }
+                //User got a correct answer but has not yet finished the entire sequence
+                else{
+
+                    waitAMoment();
+                }
+
 
             }
             //User Pressed Incorrect Button
             else {
+                System.err.println("Wrong Button");
+                waitAMoment();
+
                 initComputerCall();
                 initUserResponse();
                 nextTurnForComputer();
@@ -140,6 +165,9 @@ public class MainActivity extends Activity {
             //User has pressed too many buttons -- I don't anticipate this ever happening
             initComputerCall();
             initUserResponse();
+
+            waitAMoment();
+
             nextTurnForComputer();
             illuminateAllButtonsInSequence();
         }
@@ -152,17 +180,24 @@ public class MainActivity extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                System.err.println("Currently taking a break");
+
+                //System.err.println("Currently taking a break");
             }
-        }, 3000);
+        }, 1000);
 
     }
 
     //This function should loop through each of the computer's selections, highlighting them so that the user knows which colours to pick in which order
     protected void illuminateAllButtonsInSequence() {
+
+        Integer currentButtonNumber = null;
+
         MainActivity.callInProgress = true;
+        System.err.println("Restarting");
+
         for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
-            illuminateSingleButton(MainActivity.computerCall.get(i));
+            currentButtonNumber = MainActivity.computerCall.get(i);
+            illuminateSingleButton(currentButtonNumber);
             waitAMoment();
         }
         MainActivity.callInProgress = false;
@@ -193,6 +228,10 @@ public class MainActivity extends Activity {
         beatBox2 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound2);
         beatBox3 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound3);
         beatBox4 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound4);
+
+        txtScore = (TextView)findViewById(R.id.txtScore);
+
+        txtScore.setText("");
 
         btn1.setText("");
         btn1.setTextOn("");

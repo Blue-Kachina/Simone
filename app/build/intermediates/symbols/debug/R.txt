@@ -86,7 +86,8 @@ int id packed 0x7f040008
 int id parent 0x7f040009
 int id spread 0x7f04000a
 int id spread_inside 0x7f04000b
-int id wrap 0x7f04000c
+int id txtScore 0x7f04000c
+int id wrap 0x7f04000d
 int layout activity_main 0x7f050000
 int mipmap ic_launcher 0x7f060000
 int mipmap ic_launcher_round 0x7f060001
