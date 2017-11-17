@@ -120,10 +120,6 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\layout_test.xml.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\layout\\test.xml"
-    },
-    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
     public static ArrayList<Integer> userResponse = new ArrayList<>(); //This will be a compilation of all of the button presses that the user has made
     public static Boolean callInProgress = false; //This will indicate if the computer is currently showing the user all of its selections
     public static Integer bestScoreThisSession = 0;
-    private static Integer computerRoundIterator = 0;
+
     private static String[] colourNames = {"", "Green", "Red", "Yellow", "Blue"}; //Just in case we ever need to know that btn1 = "Green"
     MediaPlayer beatBox1 = null; //This is storage for the sound that btn1 will play
     MediaPlayer beatBox2 = null; //This is storage for the sound that btn2 will play
@@ -134,7 +134,7 @@ public class MainActivity extends Activity {
 
             //User Pressed Correct Button
             if (MainActivity.computerCall.get(indexToCheck) == buttonNumber) {
-                System.err.println("Correct");
+                //System.err.println("Correct");
                 Integer roundNumber = MainActivity.computerCall.size();
                 //User just completed the entire sequence correctly
                 if (MainActivity.computerCall.size() == MainActivity.userResponse.size()) {
@@ -145,7 +145,6 @@ public class MainActivity extends Activity {
                     initUserResponse();
 
                     System.err.println("Sequence Complete!");
-                    waitAMoment();
 
                     nextTurnForComputer();
                     illuminateAllButtonsInSequence();
@@ -153,7 +152,6 @@ public class MainActivity extends Activity {
                 //User got a correct answer but has not yet finished the entire sequence
                 else{
 
-                    waitAMoment();
                 }
 
 
@@ -162,7 +160,6 @@ public class MainActivity extends Activity {
             else {
                 txtScore.setText("");
                 System.err.println("Wrong Button");
-                waitAMoment();
 
                 initComputerCall();
                 initUserResponse();
@@ -175,8 +172,6 @@ public class MainActivity extends Activity {
             txtScore.setText("");
             initComputerCall();
             initUserResponse();
-
-            waitAMoment();
 
             nextTurnForComputer();
             illuminateAllButtonsInSequence();
@@ -205,12 +200,21 @@ public class MainActivity extends Activity {
         MainActivity.callInProgress = true;
         System.err.println("Restarting");
 
-        illuminateSingleButton(MainActivity.computerCall.get(0));
-//        for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
-//            currentButtonNumber = MainActivity.computerCall.get(i);
-//            illuminateSingleButton(currentButtonNumber);
-//            //waitAMoment();
-//        }
+        //illuminateSingleButton(MainActivity.computerCall.get(0));
+        for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
+            currentButtonNumber = MainActivity.computerCall.get(i);
+
+            final Integer buttonNumber = currentButtonNumber;
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    illuminateSingleButton(buttonNumber);
+                }
+            }, 1000);
+
+            //illuminateSingleButton(currentButtonNumber);
+            //waitAMoment();
+        }
         MainActivity.callInProgress = false;
     }
 
@@ -320,8 +324,6 @@ public class MainActivity extends Activity {
         if (!MainActivity.callInProgress){
             logUserButtonPress(buttonNumber);
         }
-        waitAMoment();
-
 
     }
 
@@ -329,13 +331,12 @@ public class MainActivity extends Activity {
         ToggleButton dynamicButton = getButtonFromNumber(buttonNumber);
         dynamicButton.setChecked(false);
         if (MainActivity.callInProgress) {
-            computerRoundIterator++;
-            if (computerRoundIterator > MainActivity.computerCall.size()) {
-                computerRoundIterator = 0;
-            } else {
-                illuminateSingleButton(computerRoundIterator);
-            }
+            //Do something if this is the computer demo
         }
+    }
+
+    private void playDemoInSequence(){
+
     }
 
 }
