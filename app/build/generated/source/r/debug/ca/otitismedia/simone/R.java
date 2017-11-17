@@ -491,11 +491,17 @@ public final class R {
     public static final int ic_launcher=0x7f060000;
     public static final int ic_launcher_round=0x7f060001;
   }
+  public static final class raw {
+    public static final int beatbox_sound1=0x7f070000;
+    public static final int beatbox_sound2=0x7f070001;
+    public static final int beatbox_sound3=0x7f070002;
+    public static final int beatbox_sound4=0x7f070003;
+  }
   public static final class string {
-    public static final int app_name=0x7f070000;
+    public static final int app_name=0x7f080000;
   }
   public static final class style {
-    public static final int AppTheme=0x7f080000;
+    public static final int AppTheme=0x7f090000;
   }
   public static final class styleable {
     /**
