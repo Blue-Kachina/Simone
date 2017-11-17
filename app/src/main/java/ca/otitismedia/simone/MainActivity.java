@@ -11,7 +11,6 @@ import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class MainActivity extends Activity {
 
@@ -19,20 +18,27 @@ public class MainActivity extends Activity {
     public static ArrayList<Integer> userResponse = new ArrayList<>(); //This will be a compilation of all of the button presses that the user has made
     public static Boolean callInProgress = false; //This will indicate if the computer is currently showing the user all of its selections
     public static Integer bestScoreThisSession = 0;
-
-
-    private ToggleButton btn1; //A ToggleButton to represent one of the coloured buttons
-    private ToggleButton btn2; //A ToggleButton to represent one of the coloured buttons
-    private ToggleButton btn3; //A ToggleButton to represent one of the coloured buttons
-    private ToggleButton btn4; //A ToggleButton to represent one of the coloured buttons
-
+    private static Integer computerRoundIterator = 0;
     private static String[] colourNames = {"", "Green", "Red", "Yellow", "Blue"}; //Just in case we ever need to know that btn1 = "Green"
     MediaPlayer beatBox1 = null; //This is storage for the sound that btn1 will play
     MediaPlayer beatBox2 = null; //This is storage for the sound that btn2 will play
     MediaPlayer beatBox3 = null; //This is storage for the sound that btn3 will play
     MediaPlayer beatBox4 = null; //This is storage for the sound that btn4 will play
-
     TextView txtScore = null;
+    private ToggleButton btn1; //A ToggleButton to represent one of the coloured buttons
+    private ToggleButton btn2; //A ToggleButton to represent one of the coloured buttons
+    private ToggleButton btn3; //A ToggleButton to represent one of the coloured buttons
+    private ToggleButton btn4; //A ToggleButton to represent one of the coloured buttons
+
+    //This is used to reset the computer's colour choices
+    private static void initComputerCall() {
+        computerCall.clear();
+    }
+
+    //This is used to reset the user's button presses
+    private static void initUserResponse() {
+        userResponse.clear();
+    }
 
     @Override
     protected void onStart() {
@@ -77,25 +83,25 @@ public class MainActivity extends Activity {
         beatBox1.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                btn1.setChecked(false);
+                buttonPressComplete(1);
             }
         });
         beatBox2.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                btn2.setChecked(false);
+                buttonPressComplete(2);
             }
         });
         beatBox3.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                btn3.setChecked(false);
+                buttonPressComplete(3);
             }
         });
         beatBox4.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                btn4.setChecked(false);
+                buttonPressComplete(4);
             }
         });
 
@@ -114,6 +120,9 @@ public class MainActivity extends Activity {
         }
         Integer newNumber = getRandomNumber();
         MainActivity.computerCall.add(newNumber);
+
+        Integer roundNumber = MainActivity.computerCall.size();
+        txtScore.setText(roundNumber.toString());
         System.err.println("Computer Picked: " + colourNames[newNumber]);
     }
 
@@ -126,12 +135,11 @@ public class MainActivity extends Activity {
             //User Pressed Correct Button
             if (MainActivity.computerCall.get(indexToCheck) == buttonNumber) {
                 System.err.println("Correct");
-
+                Integer roundNumber = MainActivity.computerCall.size();
                 //User just completed the entire sequence correctly
                 if (MainActivity.computerCall.size() == MainActivity.userResponse.size()) {
                     if (MainActivity.computerCall.size() > bestScoreThisSession){
                         bestScoreThisSession = MainActivity.computerCall.size();
-                        txtScore.setText(bestScoreThisSession.toString());
                     }
 
                     initUserResponse();
@@ -152,6 +160,7 @@ public class MainActivity extends Activity {
             }
             //User Pressed Incorrect Button
             else {
+                txtScore.setText("");
                 System.err.println("Wrong Button");
                 waitAMoment();
 
@@ -163,6 +172,7 @@ public class MainActivity extends Activity {
 
         } else {
             //User has pressed too many buttons -- I don't anticipate this ever happening
+            txtScore.setText("");
             initComputerCall();
             initUserResponse();
 
@@ -195,11 +205,12 @@ public class MainActivity extends Activity {
         MainActivity.callInProgress = true;
         System.err.println("Restarting");
 
-        for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
-            currentButtonNumber = MainActivity.computerCall.get(i);
-            illuminateSingleButton(currentButtonNumber);
-            waitAMoment();
-        }
+        illuminateSingleButton(MainActivity.computerCall.get(0));
+//        for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
+//            currentButtonNumber = MainActivity.computerCall.get(i);
+//            illuminateSingleButton(currentButtonNumber);
+//            //waitAMoment();
+//        }
         MainActivity.callInProgress = false;
     }
 
@@ -229,7 +240,7 @@ public class MainActivity extends Activity {
         beatBox3 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound3);
         beatBox4 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound4);
 
-        txtScore = (TextView)findViewById(R.id.txtScore);
+        txtScore = findViewById(R.id.txtScore);
 
         txtScore.setText("");
 
@@ -245,16 +256,6 @@ public class MainActivity extends Activity {
         btn4.setText("");
         btn4.setTextOn("");
         btn4.setTextOff("");
-    }
-
-    //This is used to reset the computer's colour choices
-    private static void initComputerCall() {
-        computerCall.clear();
-    }
-
-    //This is used to reset the user's button presses
-    private static void initUserResponse() {
-        userResponse.clear();
     }
 
     //Pass this function a number between 1 and 4 in order to get the corresponding ToggleButton as a result
@@ -318,10 +319,23 @@ public class MainActivity extends Activity {
         dynamicSound.start();
         if (!MainActivity.callInProgress){
             logUserButtonPress(buttonNumber);
-            waitAMoment();
         }
+        waitAMoment();
 
 
+    }
+
+    private void buttonPressComplete(Integer buttonNumber) {
+        ToggleButton dynamicButton = getButtonFromNumber(buttonNumber);
+        dynamicButton.setChecked(false);
+        if (MainActivity.callInProgress) {
+            computerRoundIterator++;
+            if (computerRoundIterator > MainActivity.computerCall.size()) {
+                computerRoundIterator = 0;
+            } else {
+                illuminateSingleButton(computerRoundIterator);
+            }
+        }
     }
 
 }
