@@ -4,6 +4,150 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_red_on.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellow_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\yellow_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_toggle.xml.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\green_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_red_off.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_red_off.png"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound1.wav.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound1.wav"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_toggle.xml.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\blue_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_red_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_red_on.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_crash.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\crash.mp3"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_toggle.xml.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\red_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound1.wav.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound1.wav"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_high_c.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\high_c.mp3"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_on.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_on.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound4.wav.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound4.wav"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_high_d.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\high_d.mp3"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_snare.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\snare.mp3"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_low_c.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\low_c.mp3"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn4.9.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\btn4.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_off.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_off.png"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound2.wav.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound2.wav"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_green_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_green_on.png"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_on.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_on.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_hats.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\hats.mp3"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_high_g.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\high_g.mp3"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\red_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_low_g.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\low_g.mp3"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound3.wav.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound3.wav"
     },
@@ -12,28 +156,24 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_toggle.xml.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\green_toggle.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\blue_toggle.xml"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_red_off.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_red_off.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_off.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_off.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound1.wav.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound1.wav"
-    },
-    {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_toggle.xml.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\blue_toggle.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound3.wav.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound3.wav"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn1.9.png.flat",
@@ -52,32 +192,64 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn2.9.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\btn2.9.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_on.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn3.9.png.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\btn3.9.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_toggle.xml.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\red_toggle.xml"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_toggle.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\green_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_high_a.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\high_a.mp3"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn4.9.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\btn4.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn3.9.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\btn3.9.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn2.9.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\btn2.9.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_on.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_on.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_red_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_red_off.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_green_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_green_off.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn1.9.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\btn1.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound2.wav.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound2.wav"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -88,12 +260,20 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound4.wav"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_kick.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\raw\\kick.mp3"
+    },
+    {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn4.9.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\btn4.9.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_on.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_on.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_off.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellow_toggle.xml.flat",
@@ -104,20 +284,8 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_yellow_off.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_yellow_off.png"
-    },
-    {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\raw_beatbox_sound2.wav.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\raw\\beatbox_sound2.wav"
-    },
-    {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_on.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_on.png"
-    },
-    {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -132,11 +300,23 @@
         "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\drawable\\ex_green_off.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mleering\\OneDrive - CoreSolutions Software Inc\\Android Development\\Simone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ex_blue_off.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\drawable\\ex_blue_off.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Simone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     }
 ]

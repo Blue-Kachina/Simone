@@ -18,12 +18,13 @@ public class MainActivity extends Activity {
     public static ArrayList<Integer> userResponse = new ArrayList<>(); //This will be a compilation of all of the button presses that the user has made
     public static Boolean callInProgress = false; //This will indicate if the computer is currently showing the user all of its selections
     public static Integer bestScoreThisSession = 0;
+    public static Integer computerDemoIterator = 0;
 
     private static String[] colourNames = {"", "Green", "Red", "Yellow", "Blue"}; //Just in case we ever need to know that btn1 = "Green"
-    MediaPlayer beatBox1 = null; //This is storage for the sound that btn1 will play
-    MediaPlayer beatBox2 = null; //This is storage for the sound that btn2 will play
-    MediaPlayer beatBox3 = null; //This is storage for the sound that btn3 will play
-    MediaPlayer beatBox4 = null; //This is storage for the sound that btn4 will play
+    MediaPlayer soundclip1 = null; //This is storage for the sound that btn1 will play
+    MediaPlayer soundclip2 = null; //This is storage for the sound that btn2 will play
+    MediaPlayer soundclip3 = null; //This is storage for the sound that btn3 will play
+    MediaPlayer soundclip4 = null; //This is storage for the sound that btn4 will play
     TextView txtScore = null;
     private ToggleButton btn1; //A ToggleButton to represent one of the coloured buttons
     private ToggleButton btn2; //A ToggleButton to represent one of the coloured buttons
@@ -80,25 +81,25 @@ public class MainActivity extends Activity {
             }
         });
 
-        beatBox1.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+        soundclip1.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 buttonPressComplete(1);
             }
         });
-        beatBox2.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+        soundclip2.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 buttonPressComplete(2);
             }
         });
-        beatBox3.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+        soundclip3.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 buttonPressComplete(3);
             }
         });
-        beatBox4.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+        soundclip4.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 buttonPressComplete(4);
@@ -151,7 +152,7 @@ public class MainActivity extends Activity {
                 }
                 //User got a correct answer but has not yet finished the entire sequence
                 else{
-
+                    System.err.println("Correct");
                 }
 
 
@@ -195,6 +196,7 @@ public class MainActivity extends Activity {
     //This function should loop through each of the computer's selections, highlighting them so that the user knows which colours to pick in which order
     protected void illuminateAllButtonsInSequence() {
 
+        MainActivity.computerDemoIterator = 0;
         Integer currentButtonNumber = null;
 
         MainActivity.callInProgress = true;
@@ -202,20 +204,24 @@ public class MainActivity extends Activity {
 
         //illuminateSingleButton(MainActivity.computerCall.get(0));
         for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
+
             currentButtonNumber = MainActivity.computerCall.get(i);
 
             final Integer buttonNumber = currentButtonNumber;
+            final Integer delayInMilliseconds = 350 * (i + 1);
+            final Boolean isLastRun = MainActivity.computerCall.size() == i;
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     illuminateSingleButton(buttonNumber);
+                    MainActivity.computerDemoIterator++;
                 }
-            }, 1000);
+            }, delayInMilliseconds);
 
             //illuminateSingleButton(currentButtonNumber);
             //waitAMoment();
         }
-        MainActivity.callInProgress = false;
+        //MainActivity.callInProgress = false;
     }
 
     //This should be called when a single button is to be illuminated
@@ -239,10 +245,10 @@ public class MainActivity extends Activity {
         btn3 = findViewById(R.id.btn3);
         btn4 = findViewById(R.id.btn4);
 
-        beatBox1 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound1);
-        beatBox2 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound2);
-        beatBox3 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound3);
-        beatBox4 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound4);
+        soundclip1 = MediaPlayer.create(getApplicationContext(), R.raw.low_c);
+        soundclip2 = MediaPlayer.create(getApplicationContext(), R.raw.low_g);
+        soundclip3 = MediaPlayer.create(getApplicationContext(), R.raw.high_a);
+        soundclip4 = MediaPlayer.create(getApplicationContext(), R.raw.high_d);
 
         txtScore = findViewById(R.id.txtScore);
 
@@ -297,19 +303,19 @@ public class MainActivity extends Activity {
         // Pick Which Button We'll Be Working With
         switch (buttonNumber) {
             case 1:
-                dynamicSound = beatBox1;
+                dynamicSound = soundclip1;
                 break;
 
             case 2:
-                dynamicSound = beatBox2;
+                dynamicSound = soundclip2;
                 break;
 
             case 3:
-                dynamicSound = beatBox3;
+                dynamicSound = soundclip3;
                 break;
 
             case 4:
-                dynamicSound = beatBox4;
+                dynamicSound = soundclip4;
                 break;
 
         }
@@ -321,22 +327,17 @@ public class MainActivity extends Activity {
 
         MediaPlayer dynamicSound = getSoundFromNumber(buttonNumber);
         dynamicSound.start();
-        if (!MainActivity.callInProgress){
-            logUserButtonPress(buttonNumber);
-        }
 
     }
 
     private void buttonPressComplete(Integer buttonNumber) {
         ToggleButton dynamicButton = getButtonFromNumber(buttonNumber);
         dynamicButton.setChecked(false);
-        if (MainActivity.callInProgress) {
-            //Do something if this is the computer demo
+        if (MainActivity.callInProgress && (MainActivity.computerDemoIterator == MainActivity.computerCall.size())) {
+            MainActivity.callInProgress = false;
+        } else if (!MainActivity.callInProgress) {
+            logUserButtonPress(buttonNumber);
         }
-    }
-
-    private void playDemoInSequence(){
-
     }
 
 }

@@ -497,6 +497,16 @@ public final class R {
     public static final int beatbox_sound2=0x7f070001;
     public static final int beatbox_sound3=0x7f070002;
     public static final int beatbox_sound4=0x7f070003;
+    public static final int crash=0x7f070004;
+    public static final int hats=0x7f070005;
+    public static final int high_a=0x7f070006;
+    public static final int high_c=0x7f070007;
+    public static final int high_d=0x7f070008;
+    public static final int high_g=0x7f070009;
+    public static final int kick=0x7f07000a;
+    public static final int low_c=0x7f07000b;
+    public static final int low_g=0x7f07000c;
+    public static final int snare=0x7f07000d;
   }
   public static final class string {
     public static final int app_name=0x7f080000;
