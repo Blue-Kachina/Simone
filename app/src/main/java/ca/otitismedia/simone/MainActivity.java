@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
@@ -18,7 +17,7 @@ public class MainActivity extends Activity {
 
     public static ArrayList<Integer> computerCall = new ArrayList<>(); //This will be a compilation of all of the button presses that the computer has made
     public static ArrayList<Integer> userResponse = new ArrayList<>(); //This will be a compilation of all of the button presses that the user has made
-    public static Boolean callInProgress = false; //This will indicate if the computer is currently showing the user all of its selections
+    public static Boolean callInProgress = null; //This will indicate if the computer is currently showing the user all of its selections
     public static Integer bestScoreThisSession = 0;
     public static Integer computerDemoIterator = 0;
 
@@ -143,8 +142,6 @@ public class MainActivity extends Activity {
     //This will push a number to the end of ArrayList userResponse
     protected void logUserButtonPress(Integer buttonNumber) {
 
-        if (MainActivity.callInProgress)
-            return;
 
         userResponse.add(buttonNumber);
         if (MainActivity.computerCall.size() >= MainActivity.userResponse.size()) {
@@ -217,12 +214,11 @@ public class MainActivity extends Activity {
     protected void illuminateAllButtonsInSequence() {
 
         MainActivity.computerDemoIterator = 0;
+        MainActivity.callInProgress = true;
         Integer currentButtonNumber = null;
 
-        MainActivity.callInProgress = true;
         System.err.println("Restarting");
 
-        //illuminateSingleButton(MainActivity.computerCall.get(0));
         for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
 
             currentButtonNumber = MainActivity.computerCall.get(i);
@@ -238,10 +234,7 @@ public class MainActivity extends Activity {
                 }
             }, delayInMilliseconds);
 
-            //illuminateSingleButton(currentButtonNumber);
-            //waitAMoment();
         }
-        //MainActivity.callInProgress = false;
     }
 
     //This should be called when a single button is to be illuminated
@@ -355,11 +348,15 @@ public class MainActivity extends Activity {
     }
 
     private void buttonPressComplete(Integer buttonNumber) {
+
         ToggleButton dynamicButton = getButtonFromNumber(buttonNumber);
         dynamicButton.setChecked(false);
-        if (MainActivity.callInProgress && (MainActivity.computerDemoIterator == MainActivity.computerCall.size())) {
+
+        if (MainActivity.callInProgress == null) {
+            //User is pressing buttons without having started the game.  No actions required
+        } else if (MainActivity.callInProgress && (MainActivity.computerDemoIterator == MainActivity.computerCall.size())) {
             MainActivity.callInProgress = false;
-        } else if (!MainActivity.callInProgress) {
+        } else if (MainActivity.callInProgress == false) {
             logUserButtonPress(buttonNumber);
         }
     }
