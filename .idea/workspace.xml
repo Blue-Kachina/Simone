@@ -11,18 +11,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a3cdb7-9f48-42e2-8efb-197cf7e7e24f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_25_4_0_jar.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ca/otitismedia/simone/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/ca/otitismedia/simone/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/ca/otitismedia/simone/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/otitismedia/simone/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/otitismedia/simone/MainActivity.java" />
     </list>
     <list id="12954343-05c8-44e0-ae50-2bcb10f3be74" name="Ignore" comment="Ignore" />
@@ -65,6 +109,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="rounded_corners.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rounded_corners.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,35 +138,47 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/otitismedia/simone/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="355" column="92" lean-forward="false" selection-start-line="355" selection-start-column="92" selection-end-line="355" selection-end-column="92" />
+            <state relative-caret-position="308">
+              <caret line="323" column="39" lean-forward="true" selection-start-line="323" selection-start-column="39" selection-end-line="323" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2219#2220#0" expanded="true" />
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2560#2709#0" expanded="true" />
-                <element signature="e#2708#2709#0" expanded="true" />
-                <element signature="e#2744#2893#0" expanded="true" />
-                <element signature="e#2892#2893#0" expanded="true" />
-                <element signature="e#2928#3077#0" expanded="true" />
-                <element signature="e#3076#3077#0" expanded="true" />
-                <element signature="e#3112#3261#0" expanded="true" />
-                <element signature="e#3260#3261#0" expanded="true" />
-                <element signature="e#3655#3836#0" expanded="true" />
-                <element signature="e#3835#3836#0" expanded="true" />
-                <element signature="e#3882#4063#0" expanded="true" />
-                <element signature="e#4062#4063#0" expanded="true" />
-                <element signature="e#4109#4290#0" expanded="true" />
-                <element signature="e#4289#4290#0" expanded="true" />
-                <element signature="e#4336#4517#0" expanded="true" />
-                <element signature="e#4452#4453#0" expanded="false" />
-                <element signature="e#4506#4507#0" expanded="false" />
-                <element signature="e#4516#4517#0" expanded="true" />
+                <element signature="e#3461#3610#0" expanded="true" />
+                <element signature="e#3555#3556#0" expanded="false" />
+                <element signature="e#3599#3600#0" expanded="false" />
+                <element signature="e#3609#3610#0" expanded="true" />
+                <element signature="e#3645#3794#0" expanded="true" />
+                <element signature="e#3739#3740#0" expanded="false" />
+                <element signature="e#3783#3784#0" expanded="false" />
+                <element signature="e#3793#3794#0" expanded="true" />
+                <element signature="e#3829#3978#0" expanded="true" />
+                <element signature="e#3923#3924#0" expanded="false" />
+                <element signature="e#3967#3968#0" expanded="false" />
+                <element signature="e#3977#3978#0" expanded="true" />
+                <element signature="e#4013#4162#0" expanded="true" />
+                <element signature="e#4107#4108#0" expanded="false" />
+                <element signature="e#4151#4152#0" expanded="false" />
+                <element signature="e#4161#4162#0" expanded="true" />
+                <element signature="e#4630#4811#0" expanded="true" />
+                <element signature="e#4746#4747#0" expanded="false" />
+                <element signature="e#4800#4801#0" expanded="false" />
+                <element signature="e#4810#4811#0" expanded="true" />
+                <element signature="e#4857#5038#0" expanded="true" />
+                <element signature="e#4973#4974#0" expanded="false" />
+                <element signature="e#5027#5028#0" expanded="false" />
+                <element signature="e#5037#5038#0" expanded="true" />
+                <element signature="e#5084#5265#0" expanded="true" />
+                <element signature="e#5200#5201#0" expanded="false" />
+                <element signature="e#5254#5255#0" expanded="false" />
+                <element signature="e#5264#5265#0" expanded="true" />
+                <element signature="e#5311#5492#0" expanded="true" />
+                <element signature="e#5427#5428#0" expanded="false" />
+                <element signature="e#5481#5482#0" expanded="false" />
+                <element signature="e#5491#5492#0" expanded="true" />
                 <element signature="method#waitAMoment#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#7573#7734#0" expanded="true" />
-                <element signature="e#7733#7734#0" expanded="true" />
-                <element signature="e#8521#8746#0" expanded="true" />
-                <element signature="e#8745#8746#0" expanded="true" />
+                <element signature="e#8548#8709#0" expanded="true" />
+                <element signature="e#8708#8709#0" expanded="true" />
+                <element signature="e#9496#9721#0" expanded="true" />
+                <element signature="e#9720#9721#0" expanded="true" />
                 <element signature="method#illuminateSingleButton#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#getButtonFromNumber#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#getSoundFromNumber#0;class#MainActivity#0" expanded="false" />
@@ -1885,6 +1954,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corners.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/main_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ca/otitismedia/simone/MainActivity.java" />
       </list>
     </option>
@@ -2088,7 +2159,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2102,8 +2173,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2114,10 +2189,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2132,6 +2203,15 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="SearchEverywhereHistoryKey" value="git&#9;FILE&#9;file://C:/Users/User/AndroidStudioProjects/Simone/.gitignore&#10;gitig&#9;FILE&#9;file://C:/Users/mleering/OneDrive - CoreSolutions Software Inc/Android Development/Simone/.gitignore" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-samsung_sm_g930a-a3c724e9" />
+    <property name="DEBUGGABLE_PROCESS" value="ca.otitismedia.simone" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="DEBUGGER_ID" value="Auto" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\AndroidStudioProjects\Simone\app\src\main\res\menu" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2216,7 +2296,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510981016111" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510984818587" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2264,7 +2344,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510981016111" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510984818587" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2447,7 +2527,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510981016112" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510984818588" />
       </method>
     </configuration>
     <list size="1">
@@ -2535,7 +2615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510979830820</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixes for &quot;GO&quot; button logic that will allow user to play with the sounds before they begin a game">
+      <created>1510981040678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510981040678</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2545,11 +2632,11 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49511003" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.28301886" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29591838" sideWeight="0.7370968" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29591838" sideWeight="0.90591395" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33900228" sideWeight="0.6704301" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33900228" sideWeight="0.66774195" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19387755" sideWeight="0.48924732" order="7" side_tool="false" content_ui="tabs" />
@@ -2561,7 +2648,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2845805" sideWeight="0.4887097" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33900228" sideWeight="0.3295699" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33900228" sideWeight="0.33225808" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.7169811" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.48924732" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2589,16 +2676,25 @@
     <MESSAGE value="• Got computer's demo to play buttons in sequence.&#10;• Added new audio files" />
     <MESSAGE value="The basics of this are finally working!" />
     <MESSAGE value="Added a &quot;GO&quot; button to provide a better UX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a &quot;GO&quot; button to provide a better UX" />
+    <MESSAGE value="Fixes for &quot;GO&quot; button logic that will allow user to play with the sounds before they begin a game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes for &quot;GO&quot; button logic that will allow user to play with the sounds before they begin a game" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ca/otitismedia/simone/MainActivity.java</url>
+          <line>419</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="24" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
@@ -2613,11 +2709,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ex_blue_off.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/blue_toggle.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2656,31 +2747,43 @@
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2560#2709#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2744#2893#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2928#3077#0" expanded="true" />
-            <element signature="e#3076#3077#0" expanded="true" />
-            <element signature="e#3112#3261#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3655#3836#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3882#4063#0" expanded="true" />
-            <element signature="e#4062#4063#0" expanded="true" />
-            <element signature="e#4109#4290#0" expanded="true" />
-            <element signature="e#4289#4290#0" expanded="true" />
-            <element signature="e#4336#4517#0" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4516#4517#0" expanded="true" />
+            <element signature="e#3461#3610#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3599#3600#0" expanded="false" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3645#3794#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="false" />
+            <element signature="e#3783#3784#0" expanded="false" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3829#3978#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#3967#3968#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4013#4162#0" expanded="true" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#4151#4152#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#4630#4811#0" expanded="true" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4800#4801#0" expanded="false" />
+            <element signature="e#4810#4811#0" expanded="true" />
+            <element signature="e#4857#5038#0" expanded="true" />
+            <element signature="e#4973#4974#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5037#5038#0" expanded="true" />
+            <element signature="e#5084#5265#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="false" />
+            <element signature="e#5254#5255#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="true" />
+            <element signature="e#5311#5492#0" expanded="true" />
+            <element signature="e#5427#5428#0" expanded="false" />
+            <element signature="e#5481#5482#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="true" />
             <element signature="method#waitAMoment#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7573#7734#0" expanded="true" />
-            <element signature="e#7733#7734#0" expanded="true" />
-            <element signature="e#8521#8746#0" expanded="true" />
-            <element signature="e#8745#8746#0" expanded="true" />
+            <element signature="e#8548#8709#0" expanded="true" />
+            <element signature="e#8708#8709#0" expanded="true" />
+            <element signature="e#9496#9721#0" expanded="true" />
+            <element signature="e#9720#9721#0" expanded="true" />
             <element signature="method#illuminateSingleButton#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getButtonFromNumber#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getSoundFromNumber#0;class#MainActivity#0" expanded="false" />
@@ -2727,31 +2830,43 @@
           <caret line="115" column="72" lean-forward="false" selection-start-line="115" selection-start-column="72" selection-end-line="115" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2560#2709#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2744#2893#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2928#3077#0" expanded="true" />
-            <element signature="e#3076#3077#0" expanded="true" />
-            <element signature="e#3112#3261#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3655#3836#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3882#4063#0" expanded="true" />
-            <element signature="e#4062#4063#0" expanded="true" />
-            <element signature="e#4109#4290#0" expanded="true" />
-            <element signature="e#4289#4290#0" expanded="true" />
-            <element signature="e#4336#4517#0" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4516#4517#0" expanded="true" />
+            <element signature="e#3461#3610#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3599#3600#0" expanded="false" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3645#3794#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="false" />
+            <element signature="e#3783#3784#0" expanded="false" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3829#3978#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#3967#3968#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4013#4162#0" expanded="true" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#4151#4152#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#4630#4811#0" expanded="true" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4800#4801#0" expanded="false" />
+            <element signature="e#4810#4811#0" expanded="true" />
+            <element signature="e#4857#5038#0" expanded="true" />
+            <element signature="e#4973#4974#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5037#5038#0" expanded="true" />
+            <element signature="e#5084#5265#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="false" />
+            <element signature="e#5254#5255#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="true" />
+            <element signature="e#5311#5492#0" expanded="true" />
+            <element signature="e#5427#5428#0" expanded="false" />
+            <element signature="e#5481#5482#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="true" />
             <element signature="method#waitAMoment#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7573#7734#0" expanded="true" />
-            <element signature="e#7733#7734#0" expanded="true" />
-            <element signature="e#8521#8746#0" expanded="true" />
-            <element signature="e#8745#8746#0" expanded="true" />
+            <element signature="e#8548#8709#0" expanded="true" />
+            <element signature="e#8708#8709#0" expanded="true" />
+            <element signature="e#9496#9721#0" expanded="true" />
+            <element signature="e#9720#9721#0" expanded="true" />
             <element signature="method#illuminateSingleButton#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getButtonFromNumber#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getSoundFromNumber#0;class#MainActivity#0" expanded="false" />
@@ -2798,31 +2913,43 @@
           <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2560#2709#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2744#2893#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2928#3077#0" expanded="true" />
-            <element signature="e#3076#3077#0" expanded="true" />
-            <element signature="e#3112#3261#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3655#3836#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3882#4063#0" expanded="true" />
-            <element signature="e#4062#4063#0" expanded="true" />
-            <element signature="e#4109#4290#0" expanded="true" />
-            <element signature="e#4289#4290#0" expanded="true" />
-            <element signature="e#4336#4517#0" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4516#4517#0" expanded="true" />
+            <element signature="e#3461#3610#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3599#3600#0" expanded="false" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3645#3794#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="false" />
+            <element signature="e#3783#3784#0" expanded="false" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3829#3978#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#3967#3968#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4013#4162#0" expanded="true" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#4151#4152#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#4630#4811#0" expanded="true" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4800#4801#0" expanded="false" />
+            <element signature="e#4810#4811#0" expanded="true" />
+            <element signature="e#4857#5038#0" expanded="true" />
+            <element signature="e#4973#4974#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5037#5038#0" expanded="true" />
+            <element signature="e#5084#5265#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="false" />
+            <element signature="e#5254#5255#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="true" />
+            <element signature="e#5311#5492#0" expanded="true" />
+            <element signature="e#5427#5428#0" expanded="false" />
+            <element signature="e#5481#5482#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="true" />
             <element signature="method#waitAMoment#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7573#7734#0" expanded="true" />
-            <element signature="e#7733#7734#0" expanded="true" />
-            <element signature="e#8521#8746#0" expanded="true" />
-            <element signature="e#8745#8746#0" expanded="true" />
+            <element signature="e#8548#8709#0" expanded="true" />
+            <element signature="e#8708#8709#0" expanded="true" />
+            <element signature="e#9496#9721#0" expanded="true" />
+            <element signature="e#9720#9721#0" expanded="true" />
             <element signature="method#illuminateSingleButton#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getButtonFromNumber#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getSoundFromNumber#0;class#MainActivity#0" expanded="false" />
@@ -2854,31 +2981,43 @@
           <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2560#2709#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2744#2893#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2928#3077#0" expanded="true" />
-            <element signature="e#3076#3077#0" expanded="true" />
-            <element signature="e#3112#3261#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3655#3836#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3882#4063#0" expanded="true" />
-            <element signature="e#4062#4063#0" expanded="true" />
-            <element signature="e#4109#4290#0" expanded="true" />
-            <element signature="e#4289#4290#0" expanded="true" />
-            <element signature="e#4336#4517#0" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4516#4517#0" expanded="true" />
+            <element signature="e#3461#3610#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3599#3600#0" expanded="false" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3645#3794#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="false" />
+            <element signature="e#3783#3784#0" expanded="false" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3829#3978#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#3967#3968#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4013#4162#0" expanded="true" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#4151#4152#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#4630#4811#0" expanded="true" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4800#4801#0" expanded="false" />
+            <element signature="e#4810#4811#0" expanded="true" />
+            <element signature="e#4857#5038#0" expanded="true" />
+            <element signature="e#4973#4974#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5037#5038#0" expanded="true" />
+            <element signature="e#5084#5265#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="false" />
+            <element signature="e#5254#5255#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="true" />
+            <element signature="e#5311#5492#0" expanded="true" />
+            <element signature="e#5427#5428#0" expanded="false" />
+            <element signature="e#5481#5482#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="true" />
             <element signature="method#waitAMoment#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7573#7734#0" expanded="true" />
-            <element signature="e#7733#7734#0" expanded="true" />
-            <element signature="e#8521#8746#0" expanded="true" />
-            <element signature="e#8745#8746#0" expanded="true" />
+            <element signature="e#8548#8709#0" expanded="true" />
+            <element signature="e#8708#8709#0" expanded="true" />
+            <element signature="e#9496#9721#0" expanded="true" />
+            <element signature="e#9720#9721#0" expanded="true" />
             <element signature="method#illuminateSingleButton#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getButtonFromNumber#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getSoundFromNumber#0;class#MainActivity#0" expanded="false" />
@@ -3009,6 +3148,17 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -3022,35 +3172,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/otitismedia/simone/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="355" column="92" lean-forward="false" selection-start-line="355" selection-start-column="92" selection-end-line="355" selection-end-column="92" />
+        <state relative-caret-position="308">
+          <caret line="323" column="39" lean-forward="true" selection-start-line="323" selection-start-column="39" selection-end-line="323" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2560#2709#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2744#2893#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2928#3077#0" expanded="true" />
-            <element signature="e#3076#3077#0" expanded="true" />
-            <element signature="e#3112#3261#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3655#3836#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3882#4063#0" expanded="true" />
-            <element signature="e#4062#4063#0" expanded="true" />
-            <element signature="e#4109#4290#0" expanded="true" />
-            <element signature="e#4289#4290#0" expanded="true" />
-            <element signature="e#4336#4517#0" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4516#4517#0" expanded="true" />
+            <element signature="e#3461#3610#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3599#3600#0" expanded="false" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3645#3794#0" expanded="true" />
+            <element signature="e#3739#3740#0" expanded="false" />
+            <element signature="e#3783#3784#0" expanded="false" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3829#3978#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#3967#3968#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="true" />
+            <element signature="e#4013#4162#0" expanded="true" />
+            <element signature="e#4107#4108#0" expanded="false" />
+            <element signature="e#4151#4152#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#4630#4811#0" expanded="true" />
+            <element signature="e#4746#4747#0" expanded="false" />
+            <element signature="e#4800#4801#0" expanded="false" />
+            <element signature="e#4810#4811#0" expanded="true" />
+            <element signature="e#4857#5038#0" expanded="true" />
+            <element signature="e#4973#4974#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5037#5038#0" expanded="true" />
+            <element signature="e#5084#5265#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="false" />
+            <element signature="e#5254#5255#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="true" />
+            <element signature="e#5311#5492#0" expanded="true" />
+            <element signature="e#5427#5428#0" expanded="false" />
+            <element signature="e#5481#5482#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="true" />
             <element signature="method#waitAMoment#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#7573#7734#0" expanded="true" />
-            <element signature="e#7733#7734#0" expanded="true" />
-            <element signature="e#8521#8746#0" expanded="true" />
-            <element signature="e#8745#8746#0" expanded="true" />
+            <element signature="e#8548#8709#0" expanded="true" />
+            <element signature="e#8708#8709#0" expanded="true" />
+            <element signature="e#9496#9721#0" expanded="true" />
+            <element signature="e#9720#9721#0" expanded="true" />
             <element signature="method#illuminateSingleButton#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getButtonFromNumber#0;class#MainActivity#0" expanded="false" />
             <element signature="method#getSoundFromNumber#0;class#MainActivity#0" expanded="false" />

@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -15,11 +18,13 @@ import java.util.Random;
 
 public class MainActivity extends Activity {
 
-    public static ArrayList<Integer> computerCall = new ArrayList<>(); //This will be a compilation of all of the button presses that the computer has made
-    public static ArrayList<Integer> userResponse = new ArrayList<>(); //This will be a compilation of all of the button presses that the user has made
+    public static ArrayList<Integer> computerCall = null; //This will be a compilation of all of the button presses that the computer has made
+    public static ArrayList<Integer> userResponse = null; //This will be a compilation of all of the button presses that the user has made
     public static Boolean callInProgress = null; //This will indicate if the computer is currently showing the user all of its selections
     public static Integer bestScoreThisSession = 0;
     public static Integer computerDemoIterator = 0;
+
+    public static Integer soundsToUse;
 
     private static String[] colourNames = {"", "Green", "Red", "Yellow", "Blue"}; //Just in case we ever need to know that btn1 = "Green"
     MediaPlayer soundclip1 = null; //This is storage for the sound that btn1 will play
@@ -37,17 +42,41 @@ public class MainActivity extends Activity {
 
     //This is used to reset the computer's colour choices
     private static void initComputerCall() {
+        if (computerCall == null) {
+            computerCall = new ArrayList<>();
+        }
         computerCall.clear();
     }
 
     //This is used to reset the user's button presses
     private static void initUserResponse() {
+        if (userResponse == null) {
+            userResponse = new ArrayList<>();
+        }
         userResponse.clear();
     }
 
+
     @Override
-    protected void onStart() {
-        super.onStart();
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        if (soundsToUse != null) {
+            menu.findItem(soundsToUse).setChecked(true);
+        }
+        return true;
+        //return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //Handle item selection
+        soundsToUse = item.getItemId();
+        item.setChecked(true);
+        setSoundsToUse();
+        MainActivity.super.recreate();
+        return true;
+        //return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -55,6 +84,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+        super.onStart();
 
         initializeAllViews();
 
@@ -88,6 +118,10 @@ public class MainActivity extends Activity {
             public void onClick(View view) {
                 btnGo.setVisibility(View.GONE);
                 txtScore.setVisibility(View.VISIBLE);
+
+                initComputerCall();
+                initUserResponse();
+
                 nextTurnForComputer();
                 illuminateAllButtonsInSequence();
             }
@@ -251,8 +285,39 @@ public class MainActivity extends Activity {
 
     }
 
+    protected void setSoundsToUse() {
+        switch (soundsToUse) {
+            case R.id.useKeyboard:
+                soundclip1 = MediaPlayer.create(getApplicationContext(), R.raw.low_c);
+                soundclip2 = MediaPlayer.create(getApplicationContext(), R.raw.low_g);
+                soundclip3 = MediaPlayer.create(getApplicationContext(), R.raw.high_a);
+                soundclip4 = MediaPlayer.create(getApplicationContext(), R.raw.high_d);
+                break;
+            case R.id.useBeatbox:
+                soundclip1 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound1);
+                soundclip2 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound2);
+                soundclip3 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound3);
+                soundclip4 = MediaPlayer.create(getApplicationContext(), R.raw.beatbox_sound4);
+                break;
+            case R.id.useDrums:
+                soundclip1 = MediaPlayer.create(getApplicationContext(), R.raw.kick);
+                soundclip2 = MediaPlayer.create(getApplicationContext(), R.raw.snare);
+                soundclip3 = MediaPlayer.create(getApplicationContext(), R.raw.hats);
+                soundclip4 = MediaPlayer.create(getApplicationContext(), R.raw.crash);
+                break;
+        }
+    }
+
+
     //This is used to simply initialize views
     protected void initializeAllViews(){
+
+        initUserResponse();
+        initComputerCall();
+
+        MainActivity.callInProgress = null;
+        computerDemoIterator = 0;
+
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
@@ -261,10 +326,11 @@ public class MainActivity extends Activity {
         btnGo = findViewById(R.id.btnGo);
         btnGo.setVisibility(View.VISIBLE);
 
-        soundclip1 = MediaPlayer.create(getApplicationContext(), R.raw.low_c);
-        soundclip2 = MediaPlayer.create(getApplicationContext(), R.raw.low_g);
-        soundclip3 = MediaPlayer.create(getApplicationContext(), R.raw.high_a);
-        soundclip4 = MediaPlayer.create(getApplicationContext(), R.raw.high_d);
+
+        soundsToUse = (soundsToUse == null) ? R.id.useKeyboard : soundsToUse;
+        setSoundsToUse();
+//        MenuItem selectedMenuItem = (MenuItem)findViewById(soundsToUse);
+//        selectedMenuItem.setChecked(true);
 
         txtScore = findViewById(R.id.txtScore);
         txtScore.setVisibility(View.GONE);
