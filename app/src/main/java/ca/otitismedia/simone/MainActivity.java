@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
@@ -26,10 +28,13 @@ public class MainActivity extends Activity {
     MediaPlayer soundclip3 = null; //This is storage for the sound that btn3 will play
     MediaPlayer soundclip4 = null; //This is storage for the sound that btn4 will play
     TextView txtScore = null;
+    //ProgressBar progBar = null;
     private ToggleButton btn1; //A ToggleButton to represent one of the coloured buttons
     private ToggleButton btn2; //A ToggleButton to represent one of the coloured buttons
     private ToggleButton btn3; //A ToggleButton to represent one of the coloured buttons
     private ToggleButton btn4; //A ToggleButton to represent one of the coloured buttons
+
+    private Button btnGo = null;
 
     //This is used to reset the computer's colour choices
     private static void initComputerCall() {
@@ -44,8 +49,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        nextTurnForComputer();
-        illuminateAllButtonsInSequence();
     }
 
     @Override
@@ -78,6 +81,16 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
             buttonPressed(4);
+            }
+        });
+
+        btnGo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnGo.setVisibility(View.GONE);
+                txtScore.setVisibility(View.VISIBLE);
+                nextTurnForComputer();
+                illuminateAllButtonsInSequence();
             }
         });
 
@@ -129,6 +142,10 @@ public class MainActivity extends Activity {
 
     //This will push a number to the end of ArrayList userResponse
     protected void logUserButtonPress(Integer buttonNumber) {
+
+        if (MainActivity.callInProgress)
+            return;
+
         userResponse.add(buttonNumber);
         if (MainActivity.computerCall.size() >= MainActivity.userResponse.size()) {
             Integer indexToCheck = MainActivity.userResponse.size() - 1;
@@ -162,10 +179,13 @@ public class MainActivity extends Activity {
                 txtScore.setText("");
                 System.err.println("Wrong Button");
 
+                btnGo.setVisibility(View.VISIBLE);
+                txtScore.setVisibility(View.GONE);
+
                 initComputerCall();
                 initUserResponse();
-                nextTurnForComputer();
-                illuminateAllButtonsInSequence();
+                //nextTurnForComputer();
+                //illuminateAllButtonsInSequence();
             }
 
         } else {
@@ -245,12 +265,16 @@ public class MainActivity extends Activity {
         btn3 = findViewById(R.id.btn3);
         btn4 = findViewById(R.id.btn4);
 
+        btnGo = findViewById(R.id.btnGo);
+        btnGo.setVisibility(View.VISIBLE);
+
         soundclip1 = MediaPlayer.create(getApplicationContext(), R.raw.low_c);
         soundclip2 = MediaPlayer.create(getApplicationContext(), R.raw.low_g);
         soundclip3 = MediaPlayer.create(getApplicationContext(), R.raw.high_a);
         soundclip4 = MediaPlayer.create(getApplicationContext(), R.raw.high_d);
 
         txtScore = findViewById(R.id.txtScore);
+        txtScore.setVisibility(View.GONE);
 
         txtScore.setText("");
 

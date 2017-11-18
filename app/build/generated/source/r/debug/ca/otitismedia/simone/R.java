@@ -467,7 +467,8 @@ public final class R {
     public static final int ic_launcher_background=0x7f03000f;
     public static final int ic_launcher_foreground=0x7f030010;
     public static final int red_toggle=0x7f030011;
-    public static final int yellow_toggle=0x7f030012;
+    public static final int rounded_corners=0x7f030012;
+    public static final int yellow_toggle=0x7f030013;
   }
   public static final class id {
     public static final int all=0x7f040000;
@@ -476,14 +477,15 @@ public final class R {
     public static final int btn2=0x7f040003;
     public static final int btn3=0x7f040004;
     public static final int btn4=0x7f040005;
-    public static final int chains=0x7f040006;
-    public static final int none=0x7f040007;
-    public static final int packed=0x7f040008;
-    public static final int parent=0x7f040009;
-    public static final int spread=0x7f04000a;
-    public static final int spread_inside=0x7f04000b;
-    public static final int txtScore=0x7f04000c;
-    public static final int wrap=0x7f04000d;
+    public static final int btnGo=0x7f040006;
+    public static final int chains=0x7f040007;
+    public static final int none=0x7f040008;
+    public static final int packed=0x7f040009;
+    public static final int parent=0x7f04000a;
+    public static final int spread=0x7f04000b;
+    public static final int spread_inside=0x7f04000c;
+    public static final int txtScore=0x7f04000d;
+    public static final int wrap=0x7f04000e;
   }
   public static final class layout {
     public static final int activity_main=0x7f050000;
