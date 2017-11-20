@@ -1,9 +1,11 @@
 package ca.otitismedia.simone;
 
 import android.app.Activity;
+import android.content.Context;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.AttributeSet;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -91,7 +93,7 @@ public class MainActivity extends Activity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            buttonPressed(1);
+                buttonPressed(1);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -170,7 +172,7 @@ public class MainActivity extends Activity {
 
         Integer roundNumber = MainActivity.computerCall.size();
         txtScore.setText(roundNumber.toString());
-        System.err.println("Computer Picked: " + colourNames[newNumber]);
+        //System.err.println("Computer Picked: " + colourNames[newNumber]);
     }
 
     //This will push a number to the end of ArrayList userResponse
@@ -193,14 +195,14 @@ public class MainActivity extends Activity {
 
                     initUserResponse();
 
-                    System.err.println("Sequence Complete!");
+                    //System.err.println("Sequence Complete!");
 
                     nextTurnForComputer();
                     illuminateAllButtonsInSequence();
                 }
                 //User got a correct answer but has not yet finished the entire sequence
                 else{
-                    System.err.println("Correct");
+                    //System.err.println("Correct");
                 }
 
 
@@ -208,15 +210,13 @@ public class MainActivity extends Activity {
             //User Pressed Incorrect Button
             else {
                 txtScore.setText("");
-                System.err.println("Wrong Button");
+                //System.err.println("Wrong Button");
 
                 btnGo.setVisibility(View.VISIBLE);
                 txtScore.setVisibility(View.GONE);
 
                 initComputerCall();
                 initUserResponse();
-                //nextTurnForComputer();
-                //illuminateAllButtonsInSequence();
             }
 
         } else {
@@ -230,28 +230,12 @@ public class MainActivity extends Activity {
         }
     }
 
-    //I would like to use this function to pause processing for a moment
-    protected void waitAMoment() {
-
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-
-                //System.err.println("Currently taking a break");
-            }
-        }, 1000);
-
-    }
-
     //This function should loop through each of the computer's selections, highlighting them so that the user knows which colours to pick in which order
     protected void illuminateAllButtonsInSequence() {
 
         MainActivity.computerDemoIterator = 0;
         MainActivity.callInProgress = true;
         Integer currentButtonNumber = null;
-
-        System.err.println("Restarting");
 
         for (Integer i = 0; i < MainActivity.computerCall.size(); i++) {
 
@@ -285,6 +269,7 @@ public class MainActivity extends Activity {
 
     }
 
+    //This will load up a new set of sounds to use
     protected void setSoundsToUse() {
         switch (soundsToUse) {
             case R.id.useKeyboard:
@@ -308,7 +293,6 @@ public class MainActivity extends Activity {
         }
     }
 
-
     //This is used to simply initialize views
     protected void initializeAllViews(){
 
@@ -329,8 +313,6 @@ public class MainActivity extends Activity {
 
         soundsToUse = (soundsToUse == null) ? R.id.useKeyboard : soundsToUse;
         setSoundsToUse();
-//        MenuItem selectedMenuItem = (MenuItem)findViewById(soundsToUse);
-//        selectedMenuItem.setChecked(true);
 
         txtScore = findViewById(R.id.txtScore);
         txtScore.setVisibility(View.GONE);
@@ -413,6 +395,7 @@ public class MainActivity extends Activity {
 
     }
 
+
     private void buttonPressComplete(Integer buttonNumber) {
 
         ToggleButton dynamicButton = getButtonFromNumber(buttonNumber);
@@ -421,8 +404,10 @@ public class MainActivity extends Activity {
         if (MainActivity.callInProgress == null) {
             //User is pressing buttons without having started the game.  No actions required
         } else if (MainActivity.callInProgress && (MainActivity.computerDemoIterator == MainActivity.computerCall.size())) {
+            //Computer demo is running, and this is the last iteration of it
             MainActivity.callInProgress = false;
         } else if (MainActivity.callInProgress == false) {
+            //User pressed a button
             logUserButtonPress(buttonNumber);
         }
     }
